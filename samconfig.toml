@@ -1,9 +1,9 @@
 version = 0.1
 
 [default.deploy.parameters]
-stack_name = "smart-content-moderator"
+stack_name = "content-moderator-v1"
 resolve_s3 = true
-s3_prefix = "smart-content-moderator"
+s3_prefix = "content-moderator-v1"
 region = "eu-north-1"
 capabilities = "CAPABILITY_IAM"
 image_repositories = []
